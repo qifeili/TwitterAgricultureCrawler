@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+    version="2.5">
+
+<!-- 这里配置springmvc的serlvet -->
+    <welcome-file-list>
+        <welcome-file>welcome.jsp</welcome-file>
+    </welcome-file-list>
+    
+    <servlet>
+        <servlet-name>AgricultureMVC</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class> 
+    <init-param>  
+        <param-name>contextConfigLocation</param-name>  
+        <param-value>classpath*:config/Agriculture-servlet.xml</param-value>  
+    </init-param>        
+    <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AgricultureMVC</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+
+             <!-- 日志相关配置 -->
+   <context-param>  
+        <param-name>log4jConfigLocation</param-name>   
+        <param-value>classpath:config/log4j.properties</param-value>   
+    </context-param>  
+    <context-param>   
+        <param-name>log4jRefreshInterval</param-name>   
+        <param-value>20000</param-value>   
+    </context-param>   
+    <!-- 需要添加spring-web.jar包，否则用发生错误信息 -->  
+    <listener>   
+        <listener-class>org.springframework.web.util.Log4jConfigListener</listener-class>   
+    </listener>   
+
+</web-app>

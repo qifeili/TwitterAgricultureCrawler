@@ -1,8 +1,0 @@
-2016-12-27 09:46:13 [ WARN] - org.springframework.web.servlet.PageNotFound -DispatcherServlet.java(1165) -No mapping found for HTTP request with URI [/Agriculture/Picture.html] in DispatcherServlet with name 'AgricultureMVC'
-    2016-12-27 09:46:25 [ WARN] - org.springframework.web.servlet.PageNotFound -DispatcherServlet.java(1165) -No mapping found for HTTP request with URI [/Agriculture/Picture.html] in DispatcherServlet with name 'AgricultureMVC'
-    2016-12-27 09:47:09 [ WARN] - org.springframework.web.servlet.PageNotFound -DispatcherServlet.java(1165) -No mapping found for HTTP request with URI [/Agriculture/11haha.html] in DispatcherServlet with name 'AgricultureMVC'
-    2016-12-27 09:47:50 [ WARN] - org.springframework.web.servlet.PageNotFound -DispatcherServlet.java(1165) -No mapping found for HTTP request with URI [/Agriculture/11haha.html] in DispatcherServlet with name 'AgricultureMVC'
-    2016-12-27 09:51:19 [ WARN] - org.springframework.web.servlet.PageNotFound -DispatcherServlet.java(1165) -No mapping found for HTTP request with URI [/Agriculture/11haha.html] in DispatcherServlet with name 'AgricultureMVC'
-    2016-12-27 09:51:28 [ WARN] - org.springframework.web.servlet.PageNotFound -DispatcherServlet.java(1165) -No mapping found for HTTP request with URI [/Agriculture/Picture.html] in DispatcherServlet with name 'AgricultureMVC'
-    2016-12-27 09:51:43 [ WARN] - org.springframework.web.servlet.PageNotFound -DispatcherServlet.java(1165) -No mapping found for HTTP request with URI [/Agriculture/Picture.html] in DispatcherServlet with name 'AgricultureMVC'
-    
